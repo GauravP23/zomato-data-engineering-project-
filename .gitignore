@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# dbt
+zomato/target/
+zomato/dbt_packages/
+zomato/logs/
+
+# Airflow / Docker
+logs/
+airflow/logs/
+
+# OS
+.DS_Store
+Thumbs.db
